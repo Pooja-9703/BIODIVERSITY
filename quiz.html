@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Biodiversity quiz" />
+  <title>Biodiversity Quiz</title>
+  <link rel="stylesheet" href="quiz.css" />
+</head>
+
+<body>
+  <header>
+    <h1 style="text-align:center">BIODIVERSITY QUIZ</h1>
+  </header>
+  <main class="quiz_con">
+    <form method="post" action="">
+      <section role="region" aria-labelledby="student-info">
+        <h2 id="student-info">Student Info</h2>
+        <div class="info">
+          <label for="student-name">Name:</label>
+          <input type="text" name="student-name" id="student-name" />
+        </div>
+        <div class="info">
+          <label for="student-email">Email:</label>
+          <input type="email" name="student-email" id="student-email" />
+        </div>
+        <div class="info">
+          <label for="birth-date">D.O.B.<span class="sr-only">(Date of Birth)</span></label>
+          <input type="date" name="birth-date" id="birth-date" />
+        </div>
+      </section>
+
+      <section role="region" aria-labelledby="biodiversity-questions">
+        <h2 id="biodiversity-questions">BIODIVERSITY</h2>
+        <div class="question-block">
+          <p>1</p>
+          <fieldset class="question" name="biodiversity-question-one">
+            <legend>
+              Asiatic lions in the wild are seen in:
+            </legend>
+            <ul class="answers-list">
+              <li>
+                <label for="q1-a1">
+                  <input type="radio" id="q1-a1" name="q1" value="gir forests" />
+                  Gir forests
+                </label>
+              </li>
+              <li>
+                <label for="q1-a2">
+                  <input type="radio" id="q1-a2" name="q1" value="western ghats" />
+                  Western ghats
+                </label>
+              </li>
+              <li>
+                <label for="q1-a3">
+                  <input type="radio" id="q1-a3" name="q1" value="ranthambhore" />
+                  Ranthambhore
+                </label>
+              </li>
+              <li>
+                <label for="q1-a4">
+                  <input type="radio" id="q1-a4" name="q1" value="kaziranga" />
+                  Kaziranga
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+        </div>
+
+        <div class="question-block">
+          <p>2</p>
+          <fieldset class="question" name="biodiversity-question-two">
+            <legend>
+              The earth summit of 1992 was held at:
+            </legend>
+            <ul class="answers-list">
+              <li>
+                <label for="q2-a1">
+                  <input type="radio" id="q2-a1" name="q2" value="new delhi" />
+                  New Delhi
+                </label>
+              </li>
+              <li>
+                <label for="q2-a2">
+                  <input type="radio" id="q2-a2" name="q2" value="tokyo" />
+                  Tokyo
+                </label>
+              </li>
+              <li>
+                <label for="q2-a3">
+                  <input type="radio" id="q2-a3" name="q2" value="manila" />
+                  Manila
+                </label>
+              </li>
+              <li>
+                <label for="q2-a4">
+                  <input type="radio" id="q2-a4" name="q2" value="rio de janeiro" />
+                  Rio de Janeiro
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+        </div>
+
+        <div class="question-block">
+          <p>3</p>
+          <fieldset class="question" name="biodiversity-question-three">
+            <legend>
+              The non endangered species is:
+            </legend>
+            <ul class="answers-list">
+              <li>
+                <label for="q3-a1">
+                  <input type="radio" id="q3-a1" name="q3" value="lion" />
+                  Lion
+                </label>
+              </li>
+              <li>
+                <label for="q3-a2">
+                  <input type="radio" id="q3-a2" name="q3" value="elephant" />
+                  Elephant
+                </label>
+              </li>
+              <li>
+                <label for="q3-a3">
+                  <input type="radio" id="q3-a3" name="q3" value="deer" />
+                  Deer
+                </label>
+              </li>
+              <li>
+                <label for="q3-a4">
+                  <input type="radio" id="q3-a4" name="q3" value="bustard" />
+                  Bustard
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+        </div>
+
+        <div class="question-block">
+          <p>4</p>
+          <fieldset class="question" name="biodiversity-question-four">
+            <legend>
+              Biosphere reserve concept was created by:
+            </legend>
+            <ul class="answers-list">
+              <li>
+                <label for="q4-a1">
+                  <input type="radio" id="q4-a1" name="q4" value="unicef" />
+                  UNICEF
+                </label>
+              </li>
+              <li>
+                <label for="q4-a2">
+                  <input type="radio" id="q4-a2" name="q4" value="unesco" />
+                  UNESCO
+                </label>
+              </li>
+              <li>
+                <label for="q4-a3">
+                  <input type="radio" id="q4-a3" name="q4" value="who" />
+                  WHO
+                </label>
+              </li>
+              <li>
+                <label for="q4-a4">
+                  <input type="radio" id="q4-a4" name="q4" value="iucn" />
+                  IUCN
+                </label>
+              </li>
+              </ul>
+              </fieldset>
+            </div>
+
+              <div class="question-block">
+              <p>5</p>
+              <fieldset class="question" name="biodiversity-question-five">
+                <legend>
+                  In India, the animal to become extinct most recently is:
+                </legend>
+                <ul class="answers-list">
+                  <li>
+                    <label for="q5-a1">
+                      <input type="radio" id="q5-a1" name="q5" value="cheetah" />
+                      Cheetah
+                    </label>
+                  </li>
+                  <li>
+                    <label for="q5-a2">
+                      <input type="radio" id="q5-a2" name="q5" value="hippo" />
+                      Hippopotamus
+                    </label>
+                  </li>
+                  <li>
+                    <label for="q5-a3">
+                      <input type="radio" id="q5-a3" name="q5" value="wolf" />
+                      Wolf
+                    </label>
+                  </li>
+                  <li>
+                    <label for="q5-a4">
+                      <input type="radio" id="q5-a4" name="q5" value="fox" />
+                      Fox
+                    </label>
+                  </li>
+                  </ul>
+              </fieldset>
+              </div>
+              <div class="question-block">
+                  <p>6</p>
+                  <fieldset class="question" name="biodiversity-question-six">
+                    <legend>
+                      CZA is:
+                    </legend>
+                    <ul class="answers-list">
+                      <li>
+                        <label for="q6-a1">
+                          <input type="radio" id="q6-a1" name="q6" value="centralzoologicalagency" />
+                          Central zoological Agency
+                        </label>
+                      </li>
+                      <li>
+                        <label for="q6-a2">
+                          <input type="radio" id="q6-a2" name="q6" value="centralzooauthority" />
+                          Central Zoo Authority
+                        </label>
+                      </li>
+                      <li>
+                        <label for="q6-a3">
+                          <input type="radio" id="q6-a3" name="q6" value="commonzooagency" />
+                          Common Zoo Agency
+                        </label>
+                      </li>
+                      <li>
+                        <label for="q6-a4">
+                          <input type="radio" id="q6-a4" name="q6" value="commonzooauthority" />
+                          Common Zoo Authority
+                        </label>
+                      </li>
+                    </ul>
+                  </fieldset>
+              </div>
+              <div class="question-block">
+                      <p>7</p>
+                      <fieldset class="question" name="biodiversity-question-seven">
+                        <legend>
+                          Critically endangered species have:
+                        </legend>
+                        <ul class="answers-list">
+                          <li>
+                            <label for="q7-a1">
+                              <input type="radio" id="q7-a1" name="q7" value="50%" />
+                              50% chance of survival for five years
+                            </label>
+                          </li>
+                          <li>
+                            <label for="q7-a2">
+                              <input type="radio" id="q7-a2" name="q7" value="5%" />
+                              5% chance of survival for ten years
+                            </label>
+                          </li>
+                          <li>
+                            <label for="q7-a3">
+                              <input type="radio" id="q7-a3" name="q7" value="10%" />
+                              10% probability of beaming extinct in 100 years
+                            </label>
+                          </li>
+                          <li>
+                            <label for="q7-a4">
+                              <input type="radio" id="q7-a4" name="q7" value="75%" />
+                              75% chance of surviving for 100 years
+                            </label>
+                          </li>
+                        </ul>
+                      </fieldset>
+              </div>
+
+              <div class="question-block">
+                          <p>8</p>
+                          <fieldset class="question" name="biodiversity-question-eight">
+                            <legend>
+                              Red data book and Red list is maintained by:
+                            </legend>
+                            <ul class="answers-list">
+                              <li>
+                                <label for="q8-a1">
+                                  <input type="radio" id="q8-a1" name="q8" value="wwf" />
+                                  WWF
+                                </label>
+                              </li>
+                              <li>
+                                <label for="q8-a2">
+                                  <input type="radio" id="q8-a2" name="q8" value="unesco" />
+                                  UNESCO
+                                </label>
+                              </li>
+                              <li>
+                                <label for="q8-a3">
+                                  <input type="radio" id="q8-a3" name="q8" value="who" />
+                                  WHO
+                                </label>
+                              </li>
+                              <li>
+                                <label for="q8-a4">
+                                  <input type="radio" id="q8-a4" name="q8" value="iucn" />
+                                  IUCN
+                                </label>
+                              </li>
+                              </ul>
+                              </fieldset>
+                              </div>
+                              <div class="question-block">
+                              <p>9</p>
+                              <fieldset class="question" name="biodiversity-question-nine">
+                                <legend>
+                                  The parliament passed the Biodiversity Act of India in:
+                                </legend>
+                                <ul class="answers-list">
+                                  <li>
+                                    <label for="q9-a1">
+                                      <input type="radio" id="q9-a1" name="q9" value="1950" />
+                                      1950
+                                    </label>
+                                  </li>
+                                  <li>
+                                    <label for="q9-a2">
+                                      <input type="radio" id="q9-a2" name="q9" value="2002" />
+                                      2002
+                                    </label>
+                                  </li>
+                                  <li>
+                                    <label for="q9-a3">
+                                      <input type="radio" id="q9-a3" name="q9" value="1979" />
+                                      1979
+                                    </label>
+                                  </li>
+                                  <li>
+                                    <label for="q9-a4">
+                                      <input type="radio" id="q9-a4" name="q9" value="1982" />
+                                      1982
+                                    </label>
+                                  </li>
+                                  </ul>
+                                  </fieldset>
+                                  </div>
+                                  <div class="question-block">
+                                  <p>10</p>
+                                  <fieldset class="question" name="biodiversity-question-ten">
+                                    <legend>
+                                      In India, the first national park was established in:
+                                    </legend>
+                                    <ul class="answers-list">
+                                      <li>
+                                        <label for="q10-a1">
+                                          <input type="radio" id="q10-a1" name="q10" value="corbett" />
+                                          Corbett
+                                        </label>
+                                      </li>
+                                      <li>
+                                        <label for="q10-a2">
+                                          <input type="radio" id="q10-a2" name="q10" value="bandipur" />
+                                          Bandipur
+                                        </label>
+                                      </li>
+                                      <li>
+                                        <label for="q10-a3">
+                                          <input type="radio" id="q10-a3" name="q10" value="gir" />
+                                          Gir
+                                        </label>
+                                      </li>
+                                      <li>
+                                        <label for="q10-a4">
+                                          <input type="radio" id="q10-a4" name="q10" value="sunderbans" />
+                                          Sunderbans
+                                        </label>
+                                      </li>
+                                    </ul>
+                                  </fieldset>
+        </div>
+      </section>
+
+      <button type="submit">Send</button>
+    </form>
+  </main>
+  <footer>
+    <address>
+      <a href="https://indiabiodiversity.org/">India Biodiversity Portal</a>
+    </address>
+  </footer>
+</body>
+
+</html>
